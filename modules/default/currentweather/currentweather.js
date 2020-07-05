@@ -17,20 +17,20 @@ Module.register("currentweather", {
 		showPeriod: true,
 		showPeriodUpper: false,
 		showWindDirection: true,
-		showWindDirectionAsArrow: false,
+		showWindDirectionAsArrow: true,
 		useBeaufort: true,
 		useKMPHwind: false,
 		lang: config.language,
 		decimalSymbol: ".",
 		showHumidity: false,
-		showSun: true,
+		showSun: false,
 		degreeLabel: false,
 		showIndoorTemperature: false,
 		showIndoorHumidity: false,
 		showFeelsLike: true,
 
-		initialLoadDelay: 0, // 0 seconds delay
-		retryDelay: 2500,
+		initialLoadDelay: 2, // 0 seconds delay
+		retryDelay: 5000,
 
 		apiVersion: "2.5",
 		apiBase: "https://api.openweathermap.org/data/",
@@ -42,7 +42,7 @@ Module.register("currentweather", {
 
 		onlyTemp: false,
 		hideTemp: false,
-		roundTemp: false,
+		roundTemp: SVGComponentTransferFunctionElement,
 
 		iconTable: {
 			"01d": "wi-day-sunny",

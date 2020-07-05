@@ -17,8 +17,8 @@ Module.register("clock", {
 		showPeriodUpper: false,
 		clockBold: false,
 		showDate: true,
-		showWeek: false,
-		dateFormat: "dddd, LL",
+		showWeek: true,
+		dateFormat: "ddd, LL",
 
 		/* specific to the analog clock */
 		analogSize: "200px",
@@ -28,10 +28,10 @@ Module.register("clock", {
 		secondsColor: "#888888",
 		timezone: null,
 
-		showSunTimes: false,
+		showSunTimes: true,
 		showMoonTimes: false,
-		lat: 47.630539,
-		lon: -122.344147
+		lat: 59.3293,
+		lon: 18.0686
 	},
 	// Define required scripts.
 	getScripts: function () {
