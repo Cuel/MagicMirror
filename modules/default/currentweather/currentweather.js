@@ -42,7 +42,7 @@ Module.register("currentweather", {
 
 		onlyTemp: false,
 		hideTemp: false,
-		roundTemp: SVGComponentTransferFunctionElement,
+		roundTemp: true,
 
 		iconTable: {
 			"01d": "wi-day-sunny",
